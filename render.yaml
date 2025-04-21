@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mbtileserver
+    env: python
+    buildCommand: ""
+    startCommand: mbtileserver --directory=.
+    plan: free
